@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Fases</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Cadastro de Fases</h2>
+            <form id="faseForm">
+                <label for="titulo">Título*</label>
+                <input type="text" id="titulo" name="titulo" required>
+                
+                <label for="conteudo">Conteúdo*</label>
+                <input type="text" id="conteudo" name="conteudo" required>
+                
+                <label for="pergunta">Pergunta*</label>
+                <input type="text" id="pergunta" name="pergunta" required>
+                
+                <div class="alternativa-container">
+                    <label for="alternativaA">Alternativa A*</label>
+                    <input type="text" id="alternativaA" name="alternativaA" required>
+                    <input type="checkbox" id="corretaA" name="corretaA">
+                </div>
+                
+                <div class="alternativa-container">
+                    <label for="alternativaB">Alternativa B*</label>
+                    <input type="text" id="alternativaB" name="alternativaB" required>
+                    <input type="checkbox" id="corretaB" name="corretaB">
+                    
+                </div>
+                
+                <div class="alternativa-container">
+                    <label for="alternativaC">Alternativa C*</label>
+                    <input type="text" id="alternativaC" name="alternativaC" required>
+                    <input type="checkbox" id="corretaC" name="corretaC">
+                </div>
+                
+                <div class="alternativa-container">
+                    <label for="alternativaD">Alternativa D*</label>
+                    <input type="text" id="alternativaD" name="alternativaD" required>
+                    <input type="checkbox" id="corretaD" name="corretaD">
+                </div>
+                
+                <button type="submit">Criar</button>
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
